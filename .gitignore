@@ -1,0 +1,6 @@
+DatasetFull/
+DatasetFull-Test/
+.idea/
+__pychache__/
+.idea/workspace.xml
+*.DS_Store

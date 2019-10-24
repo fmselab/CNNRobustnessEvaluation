@@ -1,0 +1,15 @@
+<Configuration>
+    <TrainingPath>Dataset\DatasetFull</TrainingPath>
+    <TestPath>Dataset\DatasetFull-Test</TestPath>
+    <Min_Accept_Accuracy>0.8</Min_Accept_Accuracy>
+    <Model>Training Results\Augmented Model\Medical_Aug.model</Model>
+    <MLB>Training Results\Augmented Model\mlb_Aug.pickle</MLB>
+    <ParallelModel>Medical_Par.model</ParallelModel>
+    <ParallelMLB>mlb_Par.pickle</ParallelMLB>
+    <EnableParallel>0</EnableParallel>
+    <PlotName>Robustness Evaluation\Standard Model\accuracy_plot_rotation.jpg</PlotName>
+    <OriginalClassifierDataFile>Robustness Evaluation\Augmented Model\Data_rotation.csv</OriginalClassifierDataFile>
+    <ChangedClassifierDataFile>Robustness Evaluation\Augmented Model\Data_rotation.csv</ChangedClassifierDataFile>
+    <OriginalClassifierLabel>$C_{DA}$</OriginalClassifierLabel>
+    <ChangedClassifierLabel>$C_{0}$</ChangedClassifierLabel>
+</Configuration>
