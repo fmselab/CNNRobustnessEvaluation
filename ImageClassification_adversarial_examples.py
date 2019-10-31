@@ -130,6 +130,6 @@ print("---- CORRECTLY CLASSIFIED: " + str(correctly_classified) + " ----")
 
 # Write all the points in a file, so the user can obtain the plot without repeating the image classification
 f = open("Similarities_" + str(modelName).split("\\")[-1] +".csv", "w+")
-for i in range(0, similarities.__len__()):
+for i in range(0, similarities_with_empty.__len__()):
     f.write(str(image_names[i]) + ";" + str(similarities_with_empty[i]).replace(".",",") + ";" + correctly[i] + "\n")
 f.close()
